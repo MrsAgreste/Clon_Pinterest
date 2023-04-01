@@ -17,6 +17,8 @@ header {
     align-self: flex-start;
 }
 
+/* Inicio Navbar ->Barra de navegación superior */
+
 #navbar-pinterest {
     padding: 0.35%  1% 0 1%;
 }
@@ -80,6 +82,7 @@ header {
     cursor: pointer;
     border: 3.5px solid #15def8;
 }
+/* Inicio -> Input de busqueda */
 .input-search-gruop {
     display: inline-block;
     width: 61%;
@@ -95,12 +98,6 @@ header {
     width: 100%;
 }
 
-.finder:hover {
-    background-color: rgb(216, 216, 214);
-    cursor: pointer;
-            
-}
-
 #icono-input {
     color: #808080;
     position: absolute;
@@ -109,6 +106,7 @@ header {
     font-weight: bolder;
     margin-top: 10px;
 }
+/* Final -> Input de busqueda */
 
 #notifications,
 #message{
@@ -118,7 +116,13 @@ header {
     display: inline-block;
     position: relative;
 }
+#notifications a,
+#message a {
+    text-decoration: none;
+    color: inherit;
+}
 
+/* Inicio Imagen de perfil */
 #profile-img {
     display: inline-block;
     position: relative;
@@ -135,13 +139,12 @@ header {
     border-radius: inherit;
     object-fit: cover;
 }
+/* Final Imagen de perfil */
 
-#notifications a, #message a{
 
-    text-decoration: none;
-    color: inherit;
-}
+/* Final Navbar ->Barra de navegación superior */
 
+/* Inicio Eventos Hover - Navbar */
 #notifications span, #message span {
     position: absolute;
     top: 0;
@@ -156,6 +159,7 @@ header {
     opacity: 0;
     transition: .5s;
 }
+
 #profile-img span, .Pinterest-icon span {
         position: absolute;
         top: 0;
@@ -170,24 +174,31 @@ header {
          opacity: 0;
         transition: .5s;
 }
-#notifications:hover span, #message:hover span, #profile-img:hover span,
+#notifications:hover span,
+#message:hover span,
+#profile-img:hover span,
 .Pinterest-icon:hover span {
-        transform: scale(1) translate(0);
-            opacity: 1;
+    transform: scale(1) translate(0);
+    opacity: 1;
+}
+.finder:hover {
+    background-color: rgb(216, 216, 214);
+    cursor: pointer;
 }
 
 button:hover,
 a:hover {
     cursor: pointer;
 }
+/* Final Eventos Hover - Navbar */
 
+/* Inicio de main (seccion de imagenes) */
 #content {
     width: 100%;
     margin-top: 1%;
     display: flex;
     text-align: center;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -228,7 +239,74 @@ section {
     object-fit: cover;
     height: 100%;
 }
+/* Inicio elementos Flotantes (Aparecen con el hover) */
+.menu-superior1 {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(236, 4, 4);
+    padding: 10px;
+    border-radius: 25px;
+    top: 15px;
+    right: 10px;
+    position: absolute;
+    border-style: none;
+    display: none;
+}
+.lowermenu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 10px;
+    border-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: none;
+}
 
+.ion-icon2 {
+    color: #181818;
+    background-color: rgb(231, 229, 229);
+    size: 20px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 2%;
+}
+
+.ion-icon1 {
+    color: #181818;
+    background-color: rgb(231, 229, 229);
+    size: 20px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.lowermenu button {
+    margin-left: 2%;
+    padding: 10px;
+    background-color: rgb(231, 229, 229);
+    text-decoration: none;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.lowermenu button a {
+    text-decoration: none;
+    border-style: none;
+    color: #181818;
+    font-weight: bold;
+}
+/* Final elementos Flotantes (Aparecen con el hover) */
+
+/* Final de main (seccion de imagenes) */
+
+/* Inicio eventos Hover en main */
 .card-image::before {
     content: '';
     position: absolute;
@@ -249,72 +327,16 @@ section {
     transform: translateY(-2%);
 }
 
-
-.menu-superior1 {
-    color: white;
-    font-weight: bold;
-    background-color: rgb(236, 4, 4);
-    padding: 10px;
-    border-radius: 25px;
-    top: 15px;
-    right: 10px;
-    position: absolute;
-    border-style: none;
-    display: none;
-}
 .card-image:hover button{
     display: inline-flex;
 }
 
-.lowermenu {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    bottom: 10px;
-    border-style: none;
-    text-decoration: none;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    display: none;
-}
-.ion-icon2 {
-    color: #181818;
-    background-color: rgb(231, 229, 229);
-    size: 20px;
-    border-radius: 50%;
-    padding: 8px;
-    margin-right: 2%;
-}
-.ion-icon1 {
-    color: #181818;
-    background-color: rgb(231, 229, 229);
-    size: 20px;
-    border-radius: 50%;
-    padding: 8px;
-    margin-left: 2%;
-    margin-right: 2%;
-
-}
-.lowermenu button {
-    margin-left: 2%;
-    padding: 10px;
-    background-color: rgb(231, 229, 229);
-    text-decoration: none;
-    border-radius: 15px;
-    border-style: none;
-}
-.lowermenu button a {
-    text-decoration: none;
-    border-style: none;
-    color: #181818;
-    font-weight: bold;
-}
 .card-image:hover .lowermenu {
     display: flex;
 }
+/* Final eventos Hover en main */
+
+/* Sección para hacer responsive la pagina */
 @media(max-width: 800px) {
     .column{
         flex:50%;

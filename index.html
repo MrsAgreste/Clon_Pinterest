@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Libreria para el icono de busqueda -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+
+    <!-- Libreria para iconos -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
     integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="stylesheet" href="estilos.css">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css">
     
     <title>Clon de Pinterest</title>
 </head>
@@ -22,20 +23,17 @@
 <body>
 
     <header>
-        <!-- La navbar debe de tener 3 iconos cada uno dentro de <div> </div> a la derecha #notifications #message y #profile-img -->
+        <!-- Inicio Navbar -> Barra de navegación superior -->
         <nav id="navbar-pinterest">
+
             <div class="Pinterest-icon">
                 <a href="https://www.pinterest.com">
                     <img src="logos/logoP.png" alt="Logo de Pinterest">
                     <span></span>
                 </a>
             </div>
-            
-
             <button id="Start-button">Inicio</button>
-
             <a class="link-superior">Hoy</a>
-
             <select id="Create-menu">                   
                 </option>
                 <option class="placeholder" selected disabled hidden>Crear</option>
@@ -43,12 +41,10 @@
                     </option>
                 <option> <a href="">Crear Pin</a></option>
             </select>
-
             <div class="input-search-gruop">
                 <input type="text" class="finder" placeholder="Search">
                 <i id="icono-input" class="fa-solid fa-magnifying-glass"></i>
             </div>
-
             <div id="notifications">
                  <a href=""><i class="fa-solid fa-bell"></i></a>
                  <span></span>
@@ -62,14 +58,12 @@
                 <span></span>
             </div>
         </nav>
+        <!-- Final Navbar -> Barra de navegación superior -->
     </header>
 
     <main id="content">
-
         <section>
             <div class="contenedor-vacio"></div>
-            
-
             </div>
             <div class="column">
 
