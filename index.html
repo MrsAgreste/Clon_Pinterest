@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria para el icono de busqueda -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="estilos.css">
+    
+    <title>Clon de Pinterest</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- La navbar debe de tener 3 iconos cada uno dentro de <div> </div> a la derecha #notifications #message y #profile-img -->
+        <nav id="navbar-pinterest">
+            <div class="Pinterest-icon">
+                <a href="https://www.pinterest.com">
+                    <img src="logos/logoP.png" alt="Logo de Pinterest">
+                    <span></span>
+                </a>
+            </div>
+            
+
+            <button id="Start-button">Inicio</button>
+
+            <a class="link-superior">Hoy</a>
+
+            <select id="Create-menu">                   
+                </option>
+                <option class="placeholder" selected disabled hidden>Crear</option>
+                    <option> <a href="">Crear una idea Pin</a>
+                    </option>
+                <option> <a href="">Crear Pin</a></option>
+            </select>
+
+            <div class="input-search-gruop">
+                <input type="text" class="finder" placeholder="Search">
+                <i id="icono-input" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div id="notifications">
+                 <a href=""><i class="fa-solid fa-bell"></i></a>
+                 <span></span>
+            </div>
+            <div id="message">
+                <a href=""><i class="fa-solid fa-comment-dots"></i></a> 
+                <span></span>
+            </div>
+            <div id="profile-img">
+                <a href=""><img src="logos/tiara-rosa.jpg" alt=""></a> 
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+
+        <section>
+            <div class="contenedor-vacio"></div>
+            
+
+            </div>
+            <div class="column">
+
+                <div class="card-image">
+                    <img src="img-originales/beso1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/extraOrdinario1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/summer6.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/john1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/valerie.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/percy1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <img src="img-originales/summer2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                
+                <div class="card-image">
+                    <img src="img-originales/wiliam1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card-image">
+                    <img src="img-originales/nicoYbianca2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer8.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/percabeth2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/nicoYbianca1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion4.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/percabeth1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/extraordinario2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/remi3.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card-image">
+                    <img src="img-originales/percy2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion8.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/percabeth3.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/pipabeth.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/remi4.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer5.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer4.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion7.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card-image">
+                    <img src="img-originales/summer9.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion5.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer10.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+               
+                <div class="card-image">
+                    <img src="img-originales/resurrecion3.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/remi2.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div> 
+                <div class="card-image">
+                    <img src="img-originales/resurrecion6.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                    <div class="card-image">
+                        <img src="img-originales/persefone1.jpg" alt="">
+                        <button class="menu-superior1">Guardar</button>
+                        <div class="lowermenu">
+                            <button><a href="">Link to dowloand...</a></button>
+                            <i class="fa-solid fa-download ion-icon1"></i>
+                            <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                        </div>
+                    </div>
+
+            </div> 
+            <div class="column">
+                <div class="card-image">
+                    <img src="img-originales/annabeth1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/resurrecion1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer3.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/seoha1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/remi1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/summer1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="img-originales/reyna1.jpg" alt="">
+                    <button class="menu-superior1">Guardar</button>
+                    <div class="lowermenu">
+                        <button><a href="">Link to dowloand...</a></button>
+                        <i class="fa-solid fa-download ion-icon1"></i>
+                        <i class="fa-solid fa-ellipsis ion-icon2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor-vacio"></div>
+
+        </section>
+    </main>
+    <footer>
+    </footer>
+
+    <!-- Objetivos
+    Hacer lo más parecido el diseño de pinterest. Toma en cuenta la navbar y que cada tarjeta tiene un hover para mostrar 3 diferentes botones
+    Por lo menos deben de existir 30 imágenes.
+    Requerimientos técnicos
+    Tener <nav> </nav> con #navbar-pinterest
+    El buscador debe de ser <input> con .finder
+    La navbar debe de tener 3 iconos cada uno dentro de <div> </div> a la derecha #notifications #message y #profile-img
+    Tener un <main> </main> con #content este debe de contener todas las images
+    El icono de pinterest con #pinterest-icon me debe de redireccionar a https://www.pinterest.com
+    Cada imagen debe de estar encerrada en un <div> </div> con la clase .card-image
+    Por lo menos deben de existir 30 imágenes
+    Debes de tener por lo menos una media query
+    El navbar siempre debe de estar en el top de la aplicación
+    La .card-image tiene un :hover para mostrar los botones -->
+</body>
+
+</html>
