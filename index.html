@@ -16,7 +16,12 @@
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="estilos.css">
-    
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Arriba.js"></script>
+
+    <!-- Elementos del titulo en ventana -->
     <link rel="icon" href="logos/logoP.png">
     <title>Clon de Pinterest</title>
 </head>
@@ -43,8 +48,7 @@
                 <option> <a href="">Crear Pin</a></option>
             </select>
             <div class="input-search-gruop">
-                <input type="text" class="finder" placeholder="Search">
-                <i id="icono-input" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="finder" placeholder="Search">                
             </div>
             <div id="notifications">
                  <a href=""><i class="fa-solid fa-bell"></i></a>
@@ -63,9 +67,12 @@
     </header>
 
     <main id="content">
+        <span class="ir-arriba">
+            <i class="fa-solid fa-chevron-up"></i>
+        </span>
         <section>
             <div class="contenedor-vacio"></div>
-            </div>
+            
             <div class="column">
 
                 <div class="card-image">
@@ -448,21 +455,6 @@
     </main>
     <footer>
     </footer>
-
-    <!-- Objetivos
-    Hacer lo más parecido el diseño de pinterest. Toma en cuenta la navbar y que cada tarjeta tiene un hover para mostrar 3 diferentes botones
-    Por lo menos deben de existir 30 imágenes.
-    Requerimientos técnicos
-    Tener <nav> </nav> con #navbar-pinterest
-    El buscador debe de ser <input> con .finder
-    La navbar debe de tener 3 iconos cada uno dentro de <div> </div> a la derecha #notifications #message y #profile-img
-    Tener un <main> </main> con #content este debe de contener todas las images
-    El icono de pinterest con #pinterest-icon me debe de redireccionar a https://www.pinterest.com
-    Cada imagen debe de estar encerrada en un <div> </div> con la clase .card-image
-    Por lo menos deben de existir 30 imágenes
-    Debes de tener por lo menos una media query
-    El navbar siempre debe de estar en el top de la aplicación
-    La .card-image tiene un :hover para mostrar los botones -->
 </body>
 
 </html>
