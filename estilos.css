@@ -369,6 +369,9 @@ section {
         background-image: none;
         padding: 12px 15px 12px 12px;
     }
+    #Create-menu {
+        display: none;
+    }
 
 }
 @media(max-width: 600px) {
